@@ -14,18 +14,10 @@ public class CourseGroupOne {
         persons.add(6, new Student("Toyoty", 123, 0, 14567, "Połaniewo", "Poland", "Dawid", "Fabiak", 28, 56789, 345678, 19, true, true, true, 20));
         persons.add(7, new Student("Beskidzka", 25, 54, 98765, "Łódź", "Polska", "Marta", "Krakowska", 24, 24567, 34567, 159, false, false, false, 0));
 
-        objectsPrint(persons);
-    }
+        for (Person person : persons) {
+            System.out.println(person);
 
-    static void objectsPrint(ArrayList<Person> objects) {
-        System.out.println(objects.get(0));
-        System.out.println(objects.get(1));
-        System.out.println(objects.get(2));
-        System.out.println(objects.get(3));
-        System.out.println(objects.get(4));
-        System.out.println(objects.get(5));
-        System.out.println(objects.get(6));
-        System.out.println(objects.get(7));
-        System.out.println(objects.size());
+        }
+        System.out.println(persons.size());
     }
 }

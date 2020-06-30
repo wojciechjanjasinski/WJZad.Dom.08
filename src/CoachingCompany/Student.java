@@ -1,6 +1,6 @@
 package CoachingCompany;
 
-public class Student extends People {
+public class Student extends Person {
     private int identityCardNumber;
     private boolean paymentAlready;
     private boolean previousExperience;

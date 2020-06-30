@@ -1,6 +1,6 @@
 package CoachingCompany;
 
-public class Teacher extends People {
+public class Teacher extends Person {
     private double salary;
     private double bonus;
     private double overallWorkExperiencePeriod;

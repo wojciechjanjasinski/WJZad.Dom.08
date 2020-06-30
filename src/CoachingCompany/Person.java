@@ -1,13 +1,13 @@
 package CoachingCompany;
 
-public class People extends Address {
+public class Person extends Address {
     private String firstName;
     private String lastName;
     private int age;
     private int pesel;
     private int mobilePhoneNumber;
 
-    public People(String street, int homeNumber, int flatNumber, int zipCode, String city, String country, String firstName, String lastName, int age, int pesel, int mobilePhoneNumber) {
+    public Person(String street, int homeNumber, int flatNumber, int zipCode, String city, String country, String firstName, String lastName, int age, int pesel, int mobilePhoneNumber) {
         super(street, homeNumber, flatNumber, zipCode, city, country);
         this.firstName = firstName;
         this.lastName = lastName;
@@ -58,7 +58,7 @@ public class People extends Address {
 
     @Override
     public String toString() {
-        return "People{" +
+        return "Person{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", age=" + age +

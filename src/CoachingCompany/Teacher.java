@@ -7,6 +7,9 @@ public class Teacher extends Person {
     private int workInOurCompanyTime;
     private double jobTime;
 
+    public Teacher() {
+    }
+
     public Teacher(String street, int homeNumber, int flatNumber, int zipCode, String city, String country, String firstName, String lastName, int age, int pesel, int mobilePhoneNumber, double salary, double bonus, double overallWorkExperiencePeriod, int workInOurCompanyTime, double jobTime) {
         super(street, homeNumber, flatNumber, zipCode, city, country, firstName, lastName, age, pesel, mobilePhoneNumber);
         this.salary = salary;

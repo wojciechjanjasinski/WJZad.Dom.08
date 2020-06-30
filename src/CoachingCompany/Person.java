@@ -7,6 +7,9 @@ public class Person extends Address {
     private int pesel;
     private int mobilePhoneNumber;
 
+    public Person() {
+    }
+
     public Person(String street, int homeNumber, int flatNumber, int zipCode, String city, String country, String firstName, String lastName, int age, int pesel, int mobilePhoneNumber) {
         super(street, homeNumber, flatNumber, zipCode, city, country);
         this.firstName = firstName;

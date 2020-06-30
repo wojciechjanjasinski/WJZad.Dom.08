@@ -7,6 +7,9 @@ public class Student extends Person {
     private boolean previousCustomer;
     private double discountLevel;
 
+    public Student() {
+    }
+
     public Student(String street, int homeNumber, int flatNumber, int zipCode, String city, String country, String firstName, String lastName, int age, int pesel, int mobilePhoneNumber, int identityCardNumber, boolean paymentAlready, boolean previousExperience, boolean previousCustomer, double discountLevel) {
         super(street, homeNumber, flatNumber, zipCode, city, country, firstName, lastName, age, pesel, mobilePhoneNumber);
         this.identityCardNumber = identityCardNumber;

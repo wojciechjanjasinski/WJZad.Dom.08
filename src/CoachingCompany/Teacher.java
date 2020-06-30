@@ -58,12 +58,13 @@ public class Teacher extends People {
 
     @Override
     public String toString() {
-        return "Teacher{" +
+        return super.toString() + "Teacher{" +
                 "salary=" + salary +
                 ", bonus=" + bonus +
                 ", overallWorkExperiencePeriod=" + overallWorkExperiencePeriod +
                 ", workInOurCompanyTime=" + workInOurCompanyTime +
                 ", jobTime=" + jobTime +
-                '}';
+                "} ";
     }
+
 }

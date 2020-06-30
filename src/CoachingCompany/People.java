@@ -64,6 +64,6 @@ public class People extends Address {
                 ", age=" + age +
                 ", pesel=" + pesel +
                 ", mobilePhoneNumber=" + mobilePhoneNumber +
-                '}';
+                "} " + super.toString();
     }
 }

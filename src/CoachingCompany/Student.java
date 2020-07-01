@@ -7,6 +7,7 @@ public class Student extends Person {
     private boolean previousCustomer;
     private double discountLevel;
 
+
     public Student() {
     }
 

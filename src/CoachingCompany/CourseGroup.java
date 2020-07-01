@@ -10,15 +10,23 @@ public class CourseGroup {
     public CourseGroup() {
     }
 
-
-    public Student enrollStudent(Student student){
+    public CourseGroup(Teacher teacher, Student student, Student[] students) {
+        this.teacher = teacher;
         this.student = student;
-        return new Student();
+        this.students = students;
     }
 
-    public Teacher newTeacher(Teacher teacher){
-        return new Teacher();
+    public CourseGroup(Teacher teacher) {
     }
+
+    Student enrollStudent(Student student){
+        return student;
+    }
+    Teacher newTeacher(Teacher teacher){
+    return teacher;
+    }
+
+
     public Teacher getTeacher() {
         return teacher;
     }

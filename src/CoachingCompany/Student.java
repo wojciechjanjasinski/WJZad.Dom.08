@@ -20,6 +20,7 @@ public class Student extends Person {
         this.discountLevel = discountLevel;
     }
 
+
     public int getIdentityCardNumber() {
         return identityCardNumber;
     }
